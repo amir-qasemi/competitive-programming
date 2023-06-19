@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/jump-game
+
+// O(n^^2) time, O(n) memory
 func canJump(nums []int) bool {
 	reachable := make([]bool, len(nums))
 	reachable[0] = true

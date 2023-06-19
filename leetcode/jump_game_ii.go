@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/jump-game-ii
+
+// O(n^^2) time, O(n) memory
 func jump(nums []int) int {
 	numOfJumps := make([]int, len(nums))
 	numOfJumps[0] = 0
