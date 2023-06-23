@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/text-justification
-
+amanaplanacanalpanama
 func fullJustify(words []string, maxWidth int) []string {
 	lens := make([]int, len(words))
 	var result []string
